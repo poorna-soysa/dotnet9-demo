@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 namespace DotNet9Demo;
 
-public static class ComplexTypesDemo
+public static class EfCore9GroupByComplexTypeDemo
 {
     public static Task GroupByComplexTypeDemo()
         => ExecuteQueries(sqlite: false);

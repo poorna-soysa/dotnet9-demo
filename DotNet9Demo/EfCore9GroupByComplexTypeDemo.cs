@@ -5,6 +5,10 @@ using System.Runtime.CompilerServices;
 
 namespace DotNet9Demo;
 
+/// <summary>
+/// This code is taken form Microsoft GitHub
+/// https://github.com/dotnet/EntityFramework.Docs/blob/main/samples/core/Miscellaneous/NewInEFCore9/ComplexTypesSample.cs
+/// </summary>
 public static class EfCore9GroupByComplexTypeDemo
 {
     public static Task GroupByComplexTypeDemo()

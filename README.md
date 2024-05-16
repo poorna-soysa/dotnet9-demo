@@ -5,6 +5,8 @@ This repository showcases the latest features and enhancements introduced in **.
 Following features are included.
 
 * LINQ Methods
+    * CountBy
+    * AggregateBy
     * Index
 * EF Core 9 GroupBy for Complex Types
 * TimeSpan New Overloads

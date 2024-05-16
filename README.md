@@ -4,7 +4,8 @@ This repository showcases the latest features and enhancements introduced in **.
 
 Following features are included.
 
-* LINQ Index method
+* LINQ Methods
+*   *Index
 * EF Core 9 GroupBy for Complex Types
 * TimeSpan New Overloads
 * New TypedResults - InternalServerError and InternalServerError<TValue> (AspNet9DemoMinimalApi Project)

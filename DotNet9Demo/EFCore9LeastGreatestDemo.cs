@@ -8,8 +8,10 @@ using Microsoft.Extensions.Logging;
 
 namespace DotNet9Demo;
 
-
-public static class LeastGreatestSample
+/// <summary>
+/// This code is taken from Microsoft GitHub
+/// </summary>
+public static class EFCore9LeastGreatestDemo
 {
     public static Task Queries_using_Least_and_Greatest()
     {

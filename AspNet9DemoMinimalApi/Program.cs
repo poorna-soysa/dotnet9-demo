@@ -17,7 +17,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // New InternalServerError and InternalServerError<TValue> to TypedResults
-app.MapGet("/", () => TypedResults.InternalServerError("Something went wrong!"));
+app.MapGet("/error", () => {
+    throw new Exception("Invalid");
+    });
 
 
 app.Run();

@@ -4,4 +4,4 @@ using DotNet9Demo;
 //await EfCore9GroupByComplexTypeDemo.GroupByComplexTypeDemoOnSqlite();
 
 
-await EFCore9LeastGreatestDemo.Queries_using_Least_and_Greatest_on_SQLite();
+await EFCore9JsonColumnsDemo.Columns_from_JSON_are_pruned_when_needed();

@@ -2,4 +2,4 @@
 using DotNet9Demo;
 
 
-await TaskWhenEachMethodDemo.TaskWhenEach();
+ JsonSchemaExporterDemo.JsonSchemaExporterDotNet9();

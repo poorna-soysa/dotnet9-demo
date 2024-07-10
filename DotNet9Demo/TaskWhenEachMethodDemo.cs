@@ -16,6 +16,7 @@ internal static class TaskWhenEachMethodDemo
         await foreach (Task<string> t in Task.WhenEach(bing, dotnet, ms))
         {
             Console.WriteLine(t.Result);
-        }
+        }        
     }
 }
+

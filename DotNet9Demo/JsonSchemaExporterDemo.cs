@@ -14,7 +14,7 @@ internal static class JsonSchemaExporterDemo
         Console.WriteLine(jsonSchema);
     }
 
-    public class Product
+    private class Product
     {
         public string Name { get; set; }
         public string? Description { get; set; }

@@ -2,4 +2,4 @@
 using DotNet9Demo;
 
 
- JsonSchemaExporterDemo.JsonSchemaExporterDotNet9();
+RespectNullableAnnotationsDemo.RespectNullableAnnotationsDotNet9();
